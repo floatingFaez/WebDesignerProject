@@ -1,0 +1,27 @@
+/*Large Laayout 1280px*/
+
+
+/*Default Layuot 980px*/
+.column {width: 1024px; margin: 0 auto;}
+.top4pera{ text-align: center; float: right;}
+
+/*Tablet Layuot 768px*/
+@media only screen and (min-width: 768px) and (max-width: 979px){
+.column {width: 750px; margin: 0 auto;}
+.top4pera{ text-align: center; float: right;}
+ /* .js #nav { display: none; }
+  .js .selectnav { display: block; }*/
+}
+
+/*Mobikle Layuot 320px*/
+@media only screen and (min-width: 320px) and (max-width: 767px){
+.column {width: 300px; margin: 0 auto;}
+.top4pera{ text-align: center; float: none;}
+}
+
+
+/*wide Mobile Layuot 480px*/
+@media only screen and (min-width: 480px) and (max-width: 767px){
+.column {width: 450px; margin: 0 auto;}
+.top4pera{ text-align: center; float: right;}
+}
